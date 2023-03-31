@@ -4,3 +4,15 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+  .logo-container {
+    width: 250px;
+  }
+
+  .logo-img{
+    width: 180px;
+    height: 180px;
+    margin: -15px 0;
+  }
+}
